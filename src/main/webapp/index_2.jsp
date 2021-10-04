@@ -10,12 +10,12 @@
 <body>
 	<div class="contenedor-form">
 			<h2>Crea tu cuenta</h2>
-			<form action="#">
+			<form method = "get" action="../servletInicio">
 				<input type="text" placeholder="Cedula" required>
 				<input type="text" placeholder="Usuario" required>
-				<input type="text" placeholder="Nombre completo" required>
-				<input type="password" placeholder="Contraseña" required>
-				<input type="email" placeholder="Correo Electrónico" required>
+				<input type="text" placeholder="Nombre" required>
+				<input type="password" placeholder="Password" required>
+				<input type="email" placeholder="Email" required>
 				<input type="submit" value="Registrarse">
 			</form>
 		</div>

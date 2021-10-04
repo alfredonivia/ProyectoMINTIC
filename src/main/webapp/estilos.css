@@ -8,7 +8,7 @@
 }
 
 body{
-	background: url(../img/fondo.jpg);
+	background: url(./fondo.jpg);
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-attachment: fixed;

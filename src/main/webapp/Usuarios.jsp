@@ -15,7 +15,7 @@
    <div class="card col-md-4">
        <div class="card-body">
            <h5 class="card-title">Usuarios</h5>
-           <h6 class="card-subtitle mb-2 text-muted">En este panel podras gestionar los datos de los usuarios del sistema</h6>
+           <h6 class="card-subtitle mb-2 text-muted">En este panel podras gestionar los datos de los usuarios de la tienda</h6>
            <div>
      		 <form class="form-sign" method="get" action="Controlador">
       		      
@@ -59,7 +59,7 @@
         </thead>
         <tbody>
             <% ArrayList<Usuarios> lista= (ArrayList<Usuarios>) request.getAttribute("lista");
-			for (Usuarios usuario:lista){
+			for (Usuarios usuario : lista){
 			%>
 			<tr>
 				<td><%=usuario.getCedula_usuario()%></td>

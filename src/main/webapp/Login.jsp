@@ -11,7 +11,7 @@
 <div class="container mt-4 col-lg-4" >
   <div class="card col-sm-10">
     <div class="card-body">
-      <form class="form-sign" method="get" action="./DemoServlet">
+      <form class="form-sign" method="get" action="DemoServlet">
         <div class="form-group text-center" >
          <h3>Login</h3>
          <img src="imagen/login.jpg" width="40" alt="40">

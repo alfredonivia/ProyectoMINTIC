@@ -31,14 +31,14 @@ public void validarUsuarios(HttpServletRequest request, HttpServletResponse resp
 		for (Usuarios usuario:lista){
 			if (usuario.getUsuario().equals(usua) && usuario.getPassword().equals(pass)) {
 			    request.setAttribute("usuario", usuario);
-			    request.getRequestDispatcher("./Principal.jsp").forward(request, response);
+			    request.getRequestDispatcher("/Principal.jsp").forward(request, response);
 			    respuesta =1;
 			}
 					
 		}
 			
 		if (respuesta==0) {
-			request.getRequestDispatcher("./Inicio.jsp").forward(request, response);
+			request.getRequestDispatcher("/index.jsp").forward(request, response);
 			System.out.println("No se encontraron datos");
 		}
 
